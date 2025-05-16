@@ -1,11 +1,17 @@
 # sortlib
 
-This project implements several commonly used sorting algorithms and conducts performance comparisons among them. 
+🚀 A lightweight and portable C sorting library that implements common sorting algorithms in pure C.
 
-```
-mkdir build
-cd build
-cmake ..
-make
-./test
-```
+## ✨ Features
+
+- ✅ Bubble Sort
+- ✅ Selection Sort
+- ✅ Insertion Sort
+- ✅ Quick Sort (with customizable comparator)
+- ✅ Merge Sort
+- 💡 Easy to integrate into other projects
+- 🧪 Performance test support
+
+## 📂 Directory Structure
+
+
