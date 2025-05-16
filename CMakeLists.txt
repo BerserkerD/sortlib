@@ -18,7 +18,7 @@ set(SORT_SOURCES
 add_library(sortlib STATIC ${SORT_SOURCES})
 
 # 添加测试程序
-add_executable(test test/test.cpp)
+add_executable(test test/test.c)
 
 # 链接排序库到测试程序
 target_link_libraries(test sortlib)

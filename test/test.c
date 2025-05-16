@@ -1,9 +1,9 @@
-#include <cstdio>
-#include <string>
+#include <stdio.h>
+#include <stdlib.h>
 #include "sort.h"
 #include <time.h>
 
-#define N   100000
+#define N   10000
 
 
 void generate_random_arr(int* arr, size_t n) {
