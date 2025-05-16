@@ -4,6 +4,7 @@ sortlib is a lightweight sorting library implemented in pure C, featuring a coll
 
 ## Directory Structure
 
+```
 sortlib/
 ├── include/
 │ └── sort.h 
@@ -14,3 +15,4 @@ sortlib/
 ├── CMakeLists.txt 
 ├── .gitignore
 └── README.md
+```
