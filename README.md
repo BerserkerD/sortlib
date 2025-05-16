@@ -30,7 +30,7 @@ make
 
 ## Performance
 
-The test is conducted on a random array with a size of 10,000 by default.
+By default, the performance test is conducted on a random array with a size of 10,000.
 
 ```
 bubble_sort    : 0.44297 s
