@@ -4,22 +4,26 @@ sortlib is a lightweight sorting library implemented in pure C, featuring a coll
 
 ## Directory Structure
 
+```
 sortlib/
-
 ├── include/
-
 │ └── sort.h
-
 ├── src/
-
 │ └── sort.c
-
 ├── test/
-
 │ └── test_sort.c
-
 ├── CMakeLists.txt
-
 ├── .gitignore
-
 └── README.md
+```
+
+## Build Instructions
+
+```bush
+git clone https://github.com/BerserkerD/sortlib.git
+cd sortlib
+mkdir build && cd build
+cmake ..
+make
+./test
+```
